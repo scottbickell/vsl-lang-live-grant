@@ -269,6 +269,10 @@ a {
   a:visited {
     color: #76bd22; }
 
+h2 a,
+h2 a:visited {
+  color: #76bd22; }
+
 span.invisible-previewline {
   display: none !important;
   visibility: hidden;
@@ -428,10 +432,11 @@ table.button table td {
 .no-bottom-padding {
   padding-bottom: 0 !important; }
 
-h2 {
-  font-size: 24px;
-  line-height: 28px;
-  color: #005587; }
+h2, h2 a {
+  font-size: 22px;
+  color: #005587;
+  font-weight: bold;
+  text-align: center; }
 
 table.product-table {
   border-width: 2px;
