@@ -492,6 +492,7 @@ sup {
   font-size: 12px !important;
   line-height: 12px;
   display: inline-block;
+  margin-left: 3px;
   font-size: normal; }
 
 ol {
